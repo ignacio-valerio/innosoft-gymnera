@@ -278,6 +278,9 @@ src/Gymnera.Blazor.Server.Tiered/Logs/*
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
 
+# Angular build artifacts
+angular/dist/
+
 # IdentityServer temp files
 tempkey.rsa
 tempkey.jwk
