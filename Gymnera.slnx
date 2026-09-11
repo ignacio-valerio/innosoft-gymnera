@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Gymnera.Domain/Gymnera.Domain.csproj" />
+        <Project Path="src/Gymnera.Application/Gymnera.Application.csproj" />
+        <Project Path="src/Gymnera.EntityFrameworkCore/Gymnera.EntityFrameworkCore.csproj" />
+        <Project Path="src/Gymnera.Domain.Shared/Gymnera.Domain.Shared.csproj" />
+        <Project Path="src/Gymnera.Application.Contracts/Gymnera.Application.Contracts.csproj" />
+        <Project Path="src/Gymnera.HttpApi/Gymnera.HttpApi.csproj" />
+        <Project Path="src/Gymnera.HttpApi.Client/Gymnera.HttpApi.Client.csproj" />
+        <Project Path="src/Gymnera.HttpApi.Host/Gymnera.HttpApi.Host.csproj" />
+        <Project Path="src/Gymnera.DbMigrator/Gymnera.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Gymnera.Application.Tests/Gymnera.Application.Tests.csproj" />
+        <Project Path="test/Gymnera.EntityFrameworkCore.Tests/Gymnera.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Gymnera.TestBase/Gymnera.TestBase.csproj" />
+        <Project Path="test/Gymnera.Domain.Tests/Gymnera.Domain.Tests.csproj" />
+        <Project Path="test/Gymnera.HttpApi.Client.ConsoleTestApp/Gymnera.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

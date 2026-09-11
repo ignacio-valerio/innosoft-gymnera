@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.6.0",
+      "isInstalled": true,
+      "creationTime": "09/11/2026 20:22:39 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Gymnera.Application": {
+      "path": "src/Gymnera.Application/Gymnera.Application.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.Application.Tests": {
+      "path": "test/Gymnera.Application.Tests/Gymnera.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Gymnera.Domain.Shared": {
+      "path": "src/Gymnera.Domain.Shared/Gymnera.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.Application.Contracts": {
+      "path": "src/Gymnera.Application.Contracts/Gymnera.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.HttpApi": {
+      "path": "src/Gymnera.HttpApi/Gymnera.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.HttpApi.Client": {
+      "path": "src/Gymnera.HttpApi.Client/Gymnera.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.EntityFrameworkCore.Tests": {
+      "path": "test/Gymnera.EntityFrameworkCore.Tests/Gymnera.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Gymnera.EntityFrameworkCore": {
+      "path": "src/Gymnera.EntityFrameworkCore/Gymnera.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.TestBase": {
+      "path": "test/Gymnera.TestBase/Gymnera.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Gymnera.Domain.Tests": {
+      "path": "test/Gymnera.Domain.Tests/Gymnera.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Gymnera.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Gymnera.HttpApi.Client.ConsoleTestApp/Gymnera.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Gymnera.DbMigrator": {
+      "path": "src/Gymnera.DbMigrator/Gymnera.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.HttpApi.Host": {
+      "path": "src/Gymnera.HttpApi.Host/Gymnera.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Gymnera.Domain": {
+      "path": "src/Gymnera.Domain/Gymnera.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
